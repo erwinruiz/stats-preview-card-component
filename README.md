@@ -22,12 +22,13 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshots/desktop-design.png)
 ![](./screenshots/mobile-design.png)
 
 
 ### Links
 
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://erwinruiz.github.io/stats-preview-card-component/)
 
 ## My process
 

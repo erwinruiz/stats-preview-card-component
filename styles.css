@@ -86,3 +86,67 @@ h3 {
 .stat:last-of-type {
     margin-bottom: 0;
 }
+
+@media (min-width: 920px){
+    section {
+        width: 900px;
+        height: 370px;
+        display: flex;
+        flex-flow: row-reverse;
+        border-radius: 8px;
+    }
+    header {
+        height: 100%;
+        width: 50%;
+    }
+    header .img{
+        background-image: url('./images/image-header-desktop.jpg');
+        background-size: contain;
+        width: 450px;
+        height: 100%;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 0;
+    }
+    header .layer {
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
+    }
+    .content {
+        padding: 60px 55px;
+        width: 450px;       
+    }
+    h1 {
+        margin-bottom: 20px;
+        font-size: 28px;
+        text-align: left;
+    }
+    .description {
+        margin-bottom: 60px;
+    }
+    .description p {
+        font-size: 12px;
+        text-align: left;
+        line-height: 1.7;
+        margin-right: 40px;
+    }
+    .stats {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .stat {
+        text-align: left;
+        margin-bottom: 0;
+        margin-right: 45px;
+    }
+    .stat:last-of-type {
+        margin-right: 0;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .stat p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
